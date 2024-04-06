@@ -1,0 +1,34 @@
+.BarContainer {
+  width: auto;
+  height: 350px;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.BarContainer .recharts-wrapper {
+  overflow: visible;
+}
+
+.BarContainer .bar {
+  fill: rgba(135, 132, 210, 1);
+
+  rx: 15px; 
+}
+
+.BarContainer .grid line {
+  display: none;
+}
+
+.BarContainer .grid line {
+  display: none; 
+}
+
+.Heading {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 32.17px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
