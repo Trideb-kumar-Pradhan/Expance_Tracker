@@ -143,6 +143,12 @@
     width: 250px;
   }
 }
+@media (max-width: 400px) {
+  .Container {
+    gap: 20px;
+    width: 220px;
+  }
+}
 
 .Container span {
   color: rgba(244, 187, 74, 1);

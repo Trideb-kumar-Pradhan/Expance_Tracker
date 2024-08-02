@@ -234,18 +234,20 @@ body {
   .Container {
     font-size: 24px;
     padding: 10px;
+    
   }
 
   .FormContainer {
     padding: 10px;
     height: auto;
     width: 70%;
+    
   }
 
   .inputBox,
   .AddBtn,
   .CancleBtn {
-    
+    margin:10px;
     max-width: 90%;
   }
 }
@@ -255,6 +257,7 @@ body {
   .Container {
     gap: 20px;
     width: 250px;
+
   }
   .FormContainer {
     /* padding: 10px; */
@@ -263,6 +266,25 @@ body {
   }
   .BalanceForm{
     width: 70%;
+    
+  }
+}
+
+@media (max-width: 400px) {
+  .Container {
+    gap: 20px;
+    width: 220px;
+
+  }
+  .FormContainer {
+    /* padding: 10px; */
+    /* height: auto; */
+    
+    width: 45%;
+  }
+  .BalanceForm{
+    width: 45%;
+
   }
 }
 
@@ -272,6 +294,27 @@ body {
 .CancleBtn {
   border: none;
   margin:10px;
+  width: 140px;
   /* gap: 100px; */
+  
 }
+}
+
+@media (max-width: 370px) {
+  .Container {
+    gap: 20px;
+    width: 220px;
+
+  }
+  .FormContainer {
+    /* padding: 10px; */
+    /* height: auto; */
+    
+    width: 90%;
+  }
+  .BalanceForm{
+    width: 49%;
+    /* margin-right: 49px; */
+
+  }
 }

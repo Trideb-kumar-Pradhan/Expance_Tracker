@@ -15,7 +15,7 @@ import Styles from "./Table.module.css";
 
 const Table = ({ expenses, onDeleteExpense, onEditExpense }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 4;
+  const itemsPerPage = 3;
   const { enqueueSnackbar } = useSnackbar();
 
   const categoryIcons = {
@@ -80,6 +80,7 @@ const Table = ({ expenses, onDeleteExpense, onEditExpense }) => {
           </div>
           <div className={Styles.LastBox}>
             <div className={Styles.Price}>₹{expense.price}</div>
+            
             <div
               className={`${Styles.DeleteBtn} ${Styles.Btn}`}
               onClick={() => handleDeleteExpense(index)}

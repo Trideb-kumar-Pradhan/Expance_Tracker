@@ -123,3 +123,40 @@
     justify-content: space-evenly;
   }
 }
+
+@media (max-width: 400px) {
+  .TopContainer {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 64%;
+    height: 64%;
+
+  }
+  .BottomContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .BottomChild1 {
+    width: 70%;
+    height: 70%;
+    
+  }
+}
+
+
+@media (max-width: 400px) {
+  .BottomChild2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 70%;
+  }
+}
