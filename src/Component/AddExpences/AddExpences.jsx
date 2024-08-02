@@ -56,7 +56,7 @@ const AddExpences = ({
     <div className={Styles.MainContainer}>
       <div className={Styles.Container}>
         <p>
-          Expance: <span>₹{totalExpenses}</span>
+          Expense: <span>₹{totalExpenses}</span>
         </p>
         <button className={Styles.BtnExpense} onClick={handleAddExpensesClick}>
           + Add Expense
