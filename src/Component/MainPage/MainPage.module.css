@@ -1,6 +1,6 @@
 .TopContainer {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:space-around;
   align-items: center;
   border-radius: 15px;
   background: rgba(98, 98, 98, 1);
@@ -15,9 +15,10 @@
 }
 .Child {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
   width: 100%;
-  margin: 20px;
+  /* margin: 20px; */
 }
 
 .BottomContainer {
@@ -38,11 +39,84 @@
   margin: 20px;
 }
 
-@media (max-width: 800px) {
+
+@media (max-width: 390px) {
+  .BottomChild1 {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .BottomChild1 {
+    width: 90%;
+    height: 70%;
+  }
+}
+@media (max-width: 480px) {
+  .BottomChild2 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1070px) {
+  .BottomChild1 {
+    width: 90%;
+   
+  }
+}
+@media (max-width: 1070px) {
+  .BottomChild2 {
+    width: 90%;
+  }
+}
+
+
+@media (max-width: 1280px) {
+  .BottomChild1 {
+    width: 90%;
+  }
+}
+@media (max-width: 1280px) {
+  .BottomChild2 {
+    width: 90%;
+  }
+}
+
+
+
+@media (max-width: 1280px) {
   .TopContainer {
+    gap: 20px;
+    /* flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  }
+  .BottomContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 1070px) {
+  .TopContainer {
+    gap: 20px;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+  }
+  .BottomContainer {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 480px) {
+  .TopContainer {
+    gap: 20px;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .BottomContainer {
     flex-direction: column;

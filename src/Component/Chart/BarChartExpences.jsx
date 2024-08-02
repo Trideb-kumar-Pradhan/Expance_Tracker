@@ -27,7 +27,7 @@ const BarChartComponent = ({ data }) => {
           <BarChart data={top3Data} layout="vertical">
             {/* <CartesianGrid strokeDasharray="3 3" /> */}
             <XAxis type="number" />
-            <YAxis type="category" dataKey="name" />
+            <YAxis type="category" dataKey="name"  width={100} />
             <Tooltip />
             {/* <Legend /> */}
             <Bar dataKey="value" barSize={30} className={Styles.bar} />

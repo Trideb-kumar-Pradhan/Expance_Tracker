@@ -15,7 +15,7 @@ import Styles from "./Table.module.css";
 
 const Table = ({ expenses, onDeleteExpense, onEditExpense }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 3;
+  const itemsPerPage = 4;
   const { enqueueSnackbar } = useSnackbar();
 
   const categoryIcons = {

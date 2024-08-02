@@ -4,31 +4,44 @@
   background-color: white;
   border-radius: 15px;
   padding: 20px;
+   display: flex; 
+  justify-content: center;
+  align-items: center;
+
 }
 
 .BarContainer .recharts-wrapper {
+  
   overflow: visible;
 }
 
 .BarContainer .bar {
   fill: rgba(135, 132, 210, 1);
+  
 
   rx: 15px; 
 }
 
 .BarContainer .grid line {
   display: none;
+  
 }
 
 .BarContainer .grid line {
   display: none; 
+  
 }
 
 .Heading {
+  
   font-size: 28px;
   font-style: italic;
   font-weight: 700;
   line-height: 32.17px;
   text-align: left;
   color: rgba(255, 255, 255, 1);
+}
+
+.cf{
+  margin-left: 29px;
 }

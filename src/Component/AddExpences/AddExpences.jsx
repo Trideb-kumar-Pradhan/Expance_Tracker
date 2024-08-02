@@ -56,7 +56,7 @@ const AddExpences = ({
     <div className={Styles.MainContainer}>
       <div className={Styles.Container}>
         <p>
-          Expense: <span>₹{totalExpenses}</span>
+          Expance: <span>₹{totalExpenses}</span>
         </p>
         <button className={Styles.BtnExpense} onClick={handleAddExpensesClick}>
           + Add Expense
@@ -98,8 +98,9 @@ const AddExpences = ({
                 value={category}
                 onChange={(e) => setCategory(e.target.value)}
               >
-                <option value="Travel">Travel</option>
+               
                 <option value="Food">Food</option>
+                 <option value="Travel">Travel</option>
                 <option value="shopping">Shopping</option>
                 <option value="Bill">Bill</option>
                 <option value="Entertenment">Entertenment</option>

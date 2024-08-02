@@ -47,7 +47,7 @@ const calculateTotalSpendByCategory = (categoriesData) => {
 const CategoryPieChart = ({ categoriesData }) => {
   const pieChartData = calculateTotalSpendByCategory(categoriesData);
   return (
-    <PieChart width={200} height={200}>
+    <PieChart width={220} height={220}>
       <Pie
         dataKey="value"
         isAnimationActive={true}
@@ -56,6 +56,7 @@ const CategoryPieChart = ({ categoriesData }) => {
         label={renderCustomizedLabel}
         outerRadius={80}
         fill="#8884d8"
+        
       >
         {pieChartData.map((entry, index) => (
           <Cell key={`cell-${index}`} fill={entry.color} />
